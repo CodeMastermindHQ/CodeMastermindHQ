@@ -1,5 +1,9 @@
 # Website
 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/af9f9088-4e9f-433e-b070-2edd6c7e8218/deploy-status)](https://app.netlify.com/sites/codemastermindhq/deploys)
+
+
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 Here's how you can deploy your Docusaurus 2 website using npm instead with GitHub Pages:
