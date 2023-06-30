@@ -15,8 +15,8 @@ const isDeployPreview = !!process.env.GITHUB_ACTIONS;
 const config = {
   title: 'CodeMastermindHQ',
   tagline: 'CodeMastermindHQ',
-  organizationName: 'papa31', // Usually your GitHub org/user name.
-  projectName: 'hm', // Usually your repo name.
+  organizationName: 'CodeMastermindHQ', // Usually your GitHub org/user name.
+  projectName: 'CodeMastermindHQ', // Usually your repo name.
   baseUrl,
   url: 'https://codemastermindhq.netlify.app/',
   onBrokenLinks: 'throw',
@@ -247,7 +247,7 @@ const config = {
     [
       require.resolve('docusaurus-lunr-search'),
       {
-        languages: ['en', 'ru'], // language codes
+        languages: ['en'], // language codes
       },
     ],
     [
