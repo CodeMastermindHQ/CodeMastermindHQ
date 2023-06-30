@@ -2,7 +2,7 @@
   "name": "codemastermindhq",
   "version": "0.0.1",
   "private": true,
-  "homepage": "/CodeMastermindHQ.github.io",
+  "homepage": "https://CodeMastermindHQ.github.io/",
   "scripts": {
     "docusaurus": "docusaurus",
     "predeploy": "npm run build",
