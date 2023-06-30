@@ -2,9 +2,10 @@
   "name": "codemastermindhq",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://CodeMastermindHQ.github.io/",
+  "homepage": "https://CodeMastermindHQ.github.io/react-gh-pages",
   "scripts": {
     "docusaurus": "docusaurus",
+    "predeploy": "npm run build",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
