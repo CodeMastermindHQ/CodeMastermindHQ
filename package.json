@@ -2,7 +2,6 @@
   "name": "codemastermindhq",
   "version": "0.0.1",
   "private": true,
-  "homepage": "codemastermindhq",
   "scripts": {
     "docusaurus": "docusaurus",
     "predeploy": "npm run build",
