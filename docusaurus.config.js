@@ -41,7 +41,7 @@ const config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           // Please change this to your repo.
-          editUrl: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ/edit/documentation/',
+          editUrl: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ/edit/main/',
           remarkPlugins: [npm2yarn, {sync: true}],
         },
         gtag: !isDeployPreview
@@ -57,7 +57,7 @@ const config = {
           // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
           // Advanced use-case: functional editUrl
           editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
-            `https://github.com/CodeMastermindHQ/CodeMastermindHQ/edit/documentation/${blogDirPath}/${blogPath}`,
+            `https://github.com/CodeMastermindHQ/CodeMastermindHQ/edit/main/${blogDirPath}/${blogPath}`,
           editLocalizedFiles: false,
           blogTitle: 'Blog',
           blogDescription: 'Blog',
@@ -223,7 +223,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Human and Machine`,
+        copyright: `Copyright © ${new Date().getFullYear()} CodeMastermindHQ`,
       },
       prism: {
         theme: lightCodeTheme,
