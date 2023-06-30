@@ -1,14 +1,14 @@
 {
-  "name": "human-and-machine",
+  "name": "codemastermindhq",
   "version": "0.0.1",
   "private": true,
-  "homepage": "/hm",
+  "homepage": "https://CodeMastermindHQ.github.io/",
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "cross-env BASE_URL='/hm/' docusaurus start",
+    "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "cross-env BASE_URL='/hm/' GIT_USER=git USE_SSH=true docusaurus deploy",
+    "deploy": "gh-pages -d build",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
     "write-translations": "docusaurus write-translations",
