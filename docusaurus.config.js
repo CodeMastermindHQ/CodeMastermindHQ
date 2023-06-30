@@ -13,12 +13,12 @@ const isDeployPreview = !!process.env.GITHUB_ACTIONS;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'hm',
-  tagline: 'Human and Machine',
+  title: 'CodeMastermindHQ',
+  tagline: 'CodeMastermindHQ',
   organizationName: 'papa31', // Usually your GitHub org/user name.
   projectName: 'hm', // Usually your repo name.
   baseUrl,
-  url: 'https://papa31.github.io',
+  url: 'https://codemastermindhq.netlify.app/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -41,7 +41,7 @@ const config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           // Please change this to your repo.
-          editUrl: 'https://github.com/papa31/hm/edit/documentation/',
+          editUrl: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ/edit/documentation/',
           remarkPlugins: [npm2yarn, {sync: true}],
         },
         gtag: !isDeployPreview
@@ -57,7 +57,7 @@ const config = {
           // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
           // Advanced use-case: functional editUrl
           editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
-            `https://github.com/papa31/hm/edit/documentation/${blogDirPath}/${blogPath}`,
+            `https://github.com/CodeMastermindHQ/CodeMastermindHQ/edit/documentation/${blogDirPath}/${blogPath}`,
           editLocalizedFiles: false,
           blogTitle: 'Blog',
           blogDescription: 'Blog',
@@ -87,7 +87,7 @@ const config = {
             title: 'Feed',
             description: 'Feed',
             copyright: '',
-            language: `Copyright © ${new Date().getFullYear()} hm`,
+            language: `Copyright © ${new Date().getFullYear()} CodeMastermindHQ`,
           },
         },
         pages: {
@@ -116,9 +116,9 @@ const config = {
       },
       navbar: {
         hideOnScroll: true,
-        title: 'hm',
+        title: 'CodeMastermindHQ',
         logo: {
-          alt: 'Human&Machine',
+          alt: 'CodeMastermindHQ',
           src: 'img/logo.svg',
         },
         items: [
@@ -143,7 +143,7 @@ const config = {
           {to: 'blog', label: 'Blog', position: 'left'},
           {to: 'showcase', label: 'Showcase', position: 'left'},
           {
-            href: 'https://github.com/papa31/hm',
+            href: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
@@ -218,7 +218,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/papa31/hm',
+                href: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ',
               },
             ],
           },
@@ -247,7 +247,7 @@ const config = {
     [
       require.resolve('docusaurus-lunr-search'),
       {
-        languages: ['en', 'ru'], // language codes
+        languages: ['en', 'hi'], // language codes
       },
     ],
     [
@@ -258,7 +258,7 @@ const config = {
         path: 'courses',
         routeBasePath: 'courses',
         sidebarPath: require.resolve('./sidebarsCourses.js'),
-        editUrl: 'https://github.com/papa31/hm/edit/documentation/',
+        editUrl: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ/edit/documentation/',
         remarkPlugins: [npm2yarn],
         sidebarCollapsible: true,
         numberPrefixParser: false,
@@ -275,7 +275,7 @@ const config = {
         routeBasePath: 'support', // URL Route.
         include: ['**/*.md'],
         sidebarPath: require.resolve('./sidebarsSupport.js'),
-        editUrl: 'https://github.com/papa31/hm/edit/documentation/',
+        editUrl: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ/edit/documentation/',
         remarkPlugins: [npm2yarn],
         sidebarCollapsible: true,
         numberPrefixParser: false,
