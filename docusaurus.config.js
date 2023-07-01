@@ -44,13 +44,13 @@ const config = {
           editUrl: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ/edit/main/',
           remarkPlugins: [npm2yarn, {sync: true}],
         },
-        gtag: !isDeployPreview
-          ? {
-              trackingID: 'G-M8RTQC8274',
-              // Optional fields.
-              anonymizeIP: true, // Should IPs be anonymized?
-            }
-          : undefined,
+        // gtag: !isDeployPreview
+          // ? {
+        //       trackingID: 'G-M8RTQC8274',
+        //       // Optional fields.
+        //       anonymizeIP: true, // Should IPs be anonymized?
+        //     }
+        //   : undefined,
         blog: {
           path: 'blog',
           // Simple use-case: string editUrl
@@ -119,7 +119,7 @@ const config = {
         title: 'CodeMastermindHQ',
         logo: {
           alt: 'CodeMastermindHQ',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
