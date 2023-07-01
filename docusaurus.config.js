@@ -136,7 +136,7 @@ const config = {
           },
           {
             to: '/support',
-            label: 'Support',
+            label: '📓 DSA',
             position: 'left',
             activeBaseRegex: `/support/`,
           },
