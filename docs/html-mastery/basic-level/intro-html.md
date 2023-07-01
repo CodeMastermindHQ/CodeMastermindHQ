@@ -11,8 +11,6 @@ import CodeBlock from '@theme/CodeBlock';
 import card from '@site/src/css/markdown.module.css'
 ```
 
-# Introduction to HTML
-
 ## What is HTML?
 HTML (Hypertext Markup Language) is the standard markup language used for creating and structuring web pages. It provides a way to describe the structure and content of a webpage using tags and elements. HTML documents are interpreted by web browsers to display the webpage to users.
 

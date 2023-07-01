@@ -157,20 +157,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'vscode snippets',
-                to: 'docs/vs-code/snippets/all-vscode-snippets',
+                label: 'HTML-Mastery',
+                to: 'docs/html-mastery/basic-level/intro-html',
+              },             
+              {
+                label: 'JavaScript-Mastery',
+                to: 'docs/javascript/next-generation/arrow-functions',
               },
               {
-                label: 'vscode shortcuts',
-                to: 'docs/vs-code/all-vscode-keyboard-shortcuts',
-              },
-              {
-                label: 'Exercises 1.31-1.60',
-                to: 'docs/digital-design/exercises/exercises-131-160',
-              },
-              {
-                label: 'updateAutoFrontmatter',
-                to: 'docs/vs-code/macros/2-auto-frontmatter',
+                label: 'React-Mastery',
+                to: 'docs/react/component',
               },
             ],
           },
@@ -197,15 +193,15 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/HumanMachine',
+                href: '/',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/HumanMachine',
+                href: '/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/HumanMachine',
+                href: '/',
               },
             ],
           },
