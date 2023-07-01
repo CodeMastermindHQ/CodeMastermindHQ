@@ -174,8 +174,8 @@ const config = {
             title: 'Courses',
             items: [
               {
-                label: 'React Complete Guide (Hooks, React Router, Redux)',
-                to: 'courses/react-complete-guide',
+                label: 'React Complete Guide',
+                to: 'courses/',
               },
             ],
           },
