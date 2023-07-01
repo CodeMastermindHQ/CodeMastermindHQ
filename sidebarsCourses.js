@@ -2,7 +2,7 @@ module.exports = {
   Courses: [
     {
       type: 'link',
-      label: 'CardHolder',
+      label: 'Collections',
       href: '/cardHolder',
     },
     {
