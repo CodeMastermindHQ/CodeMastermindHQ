@@ -14,7 +14,7 @@ const isDeployPreview = !!process.env.GITHUB_ACTIONS;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CodeMastermindHQ',
-  tagline: 'CodeMastermindHQ',
+  tagline: 'Experience the power of real-world coding with CodeMastermindHQ.',
   organizationName: 'CodeMastermindHQ', // Usually your GitHub org/user name.
   projectName: 'CodeMastermindHQ', // Usually your repo name.
   baseUrl,
@@ -114,6 +114,7 @@ const config = {
           autoCollapseCategories: true,
         },
       },
+
       navbar: {
         hideOnScroll: true,
         title: 'CodeMastermindHQ',
@@ -122,15 +123,15 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'vs-code/snippets/all-vscode-snippets',
-            label: 'Docs',
-            position: 'left',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'vs-code/snippets/all-vscode-snippets',
+          //   label: 'Docs',
+          //   position: 'left',
+          // },
           {
             to: '/courses',
-            label: 'Courses',
+            label: '🔍 Courses',
             position: 'left',
             activeBaseRegex: `/courses/`,
           },
@@ -141,9 +142,15 @@ const config = {
             activeBaseRegex: `/support/`,
           },
 
-          // {to: 'blog', label: 'Blog', position: 'left'},
+          {
+            label: '🏷️ Tags',
+            to: '/courses/tags/',
+            activeBaseRegex: `/docs/tags/`,
+          },
 
-          {to: 'showcase', label: 'Showcase', position: 'left'},
+          // {to: 'blog', label: '📰 Blog', position: 'left'},
+
+          {to: 'showcase', label: '🌐 Showcase', position: 'left'},
           {
             href: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ',
             position: 'right',
@@ -159,16 +166,20 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'HTML-Mastery',
+                label: 'HTML',
                 to: 'docs/html-mastery/basic-level/intro-html',
               },             
               {
-                label: 'JavaScript-Mastery',
+                label: 'JavaScript',
                 to: 'docs/javascript/next-generation/arrow-functions',
               },
               {
-                label: 'React-Mastery',
+                label: 'React',
                 to: 'docs/react/component',
+              },
+              {
+                label: 'Node',
+                to: 'docs/node/npm/do-i-commit-package-lock-json',
               },
             ],
           },
@@ -176,16 +187,29 @@ const config = {
             title: 'Courses',
             items: [
               {
-                label: 'React Complete Guide',
+                label: 'HTML',
+                to: 'courses/html/welcome-html',
+              },
+              {
+                label: 'CSS',
+                to: 'courses/',
+              },
+              {
+                label: 'JavaScript',
+                to: 'courses/',
+              },
+
+              {
+                label: 'React',
                 to: 'courses/',
               },
             ],
           },
           {
-            title: 'Support',
+            title: 'Problem Solving',
             items: [
               {
-                label: 'TEST',
+                label: 'Data Structure and Algorithms',
                 to: 'support',
               },
             ],
@@ -221,7 +245,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CodeMastermindHQ`,
+        copyright: `Copyright © ${new Date().getFullYear()} CodeMastermindHQ. Made with ❤️ by <a href="https://github.com/ajay-dhangar" target="_blank">Ajay-Dhangar</a>`,
       },
       prism: {
         theme: lightCodeTheme,

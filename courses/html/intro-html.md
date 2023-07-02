@@ -6,6 +6,12 @@ sidebar_position: 2
 ---
 
 
+```mdx-code-block
+import BrowserWindow from '@site/src/components/BrowserWindow';
+import CodeBlock from '@theme/CodeBlock';
+import card from '@site/src/css/markdown.module.css'
+```
+
 ## What is HTML?
 HTML (Hypertext Markup Language) is the standard markup language used for creating and structuring web pages. It provides a way to describe the structure and content of a webpage using tags and elements. HTML documents are interpreted by web browsers to display the webpage to users.
 
@@ -24,12 +30,17 @@ HTML documents follow a specific structure and syntax:
 </body>
 </html>
 ```
-<!-- 
-<h2 align="center"> Live Preview </h2>
 
-<iframe src="https://github.com/Ajay-Dhangar/CodeMastermindHQ/projects/live-project/basic-level/intro/ex-1/"></iframe> -->
+<BrowserWindow>
+      
+      <body>
+          <h1>Heading 1</h1>
+          <p>This is a paragraph.</p>
+      </body>
+      
+ </BrowserWindow>
 
-:::tip
+:::tip Code Explaination:
 
 - `<!DOCTYPE html>`: This declaration defines the document type and version of HTML being used (HTML5 in this case).
 - `<html>`: The root element of an HTML document. It contains the entire content of the webpage.
@@ -78,11 +89,16 @@ Here's an example of the basic structure of an HTML document:
 </html>
 ```
 
-<!-- 
-<h2 align="center"> Live Preview </h2>
+ <BrowserWindow>
+      
+          <body>
+            <h1>Welcome to My Website</h1>
+            <p>This is the content of my web page.</p>
+            <img src="https://ajay-dhangar.github.io/portfolio/Assets/img/author.jpg" alt="My Image" width="100px" border="1px" /> <br /><br />
+            <a href="https://ajay-dhangar.github.io/portfolio/">Click here</a> to visit a website.
+          </body>
 
-<iframe src=""></iframe> -->
-
+</BrowserWindow>
 
 ## Basic HTML Tags: `<html>`, `<head>`, `<body>`
 
