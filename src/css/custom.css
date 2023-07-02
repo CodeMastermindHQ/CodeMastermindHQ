@@ -124,6 +124,8 @@ blockquote {
 
 .footer--dark {
   --ifm-footer-background-color: #2b3137;
+  background-image: linear-gradient(#ff0303, transparent), url("../../static/img/use-svg-as-background-image-particle-strokes.svg");
+  
 }
 
 [data-theme='light'] img[src$='#gh-dark-mode-only'],
