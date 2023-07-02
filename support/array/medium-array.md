@@ -1,7 +1,6 @@
 ---
 id: array-medium-problems
 title: Arrays Medium Problems
-sidebar_position: 3
 tags: [CodeMasterMindHQ, arrays, arrays midium problems]
 ---
 
