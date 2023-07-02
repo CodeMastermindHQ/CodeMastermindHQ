@@ -415,12 +415,12 @@ table.month tbody td.mc:hover {
 .red a:hover {
   color: var(--ifm-menu-color);
 }*/
-footer{
+.my-footer{
   background-image: linear-gradient(#a90000, transparent), url("../../static/img/use-svg-as-background-image-particle-strokes.svg");
   /* animation: ftX 10s linear infinite, ftY 10s linear infinite; */
   animation-play-state: paused;
 }
-footer:hover {
+.my-footer:hover {
   animation-play-state: running;
 }
 

@@ -150,9 +150,9 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        links: [
+      footer: {        
+        style: 'dark',  
+        links: [          
           {
             title: 'Docs',
             items: [
@@ -218,9 +218,10 @@ const config = {
               },
             ],
           },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} CodeMastermindHQ`,
+        ],        
+        copyright: `Copyright © ${new Date().getFullYear()} CodeMastermindHQ`,        
       },
+      
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
