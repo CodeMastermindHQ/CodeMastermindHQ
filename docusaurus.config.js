@@ -159,16 +159,20 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'HTML-Mastery',
+                label: 'HTML',
                 to: 'docs/html-mastery/basic-level/intro-html',
               },             
               {
-                label: 'JavaScript-Mastery',
+                label: 'JavaScript',
                 to: 'docs/javascript/next-generation/arrow-functions',
               },
               {
-                label: 'React-Mastery',
+                label: 'React',
                 to: 'docs/react/component',
+              },
+              {
+                label: 'Node',
+                to: 'docs/node/npm/do-i-commit-package-lock-json',
               },
             ],
           },
@@ -176,16 +180,29 @@ const config = {
             title: 'Courses',
             items: [
               {
-                label: 'React Complete Guide',
+                label: 'HTML',
+                to: 'courses/html/welcome-html',
+              },
+              {
+                label: 'CSS',
+                to: 'courses/',
+              },
+              {
+                label: 'JavaScript',
+                to: 'courses/',
+              },
+
+              {
+                label: 'React',
                 to: 'courses/',
               },
             ],
           },
           {
-            title: 'Support',
+            title: 'Problem Solving',
             items: [
               {
-                label: 'TEST',
+                label: 'Data Structure and Algorithms',
                 to: 'support',
               },
             ],
