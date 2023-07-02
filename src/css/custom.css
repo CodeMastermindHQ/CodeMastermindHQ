@@ -52,11 +52,11 @@ textarea {
 }
 
 a[href^='http'] {
-  color: #366fd8;
+  color: #ff0000;
 }
 
 [data-theme='dark'] a[href^='http'] {
-  color: #5788e4;
+  color: #7dbb0a;
 }
 
 .theme-doc-markdown a[href^='http']::before {
@@ -124,7 +124,32 @@ blockquote {
 
 .footer--dark {
   --ifm-footer-background-color: #2b3137;
+  background-image: linear-gradient(#a90000d3, transparent), url("../../static/img/use-svg-as-background-image-particle-strokes.svg");
+  /* animation: ftX 10s linear infinite, ftY 10s linear infinite; */
+  animation-play-state: paused;
 }
+/* 
+.footer--dark:hover {
+  animation-play-state: running;
+}
+
+@keyframes ftX {
+  0% {
+    background-position-x: 100%, 0;
+  }
+  100% {
+    background-position-x: 100%, 33rem;
+  }
+}
+@keyframes ftY {
+  100% {
+    background-position-y: 100%, 0;
+  }
+  0% {
+    background-position-y: 100%, 33rem;
+  }
+} */
+
 
 [data-theme='light'] img[src$='#gh-dark-mode-only'],
 [data-theme='dark'] img[src$='#gh-light-mode-only'] {
@@ -415,28 +440,6 @@ table.month tbody td.mc:hover {
 .red a:hover {
   color: var(--ifm-menu-color);
 }*/
-.my-footer{
-  background-image: linear-gradient(#a90000, transparent), url("../../static/img/use-svg-as-background-image-particle-strokes.svg");
-  /* animation: ftX 10s linear infinite, ftY 10s linear infinite; */
-  animation-play-state: paused;
-}
-.my-footer:hover {
-  animation-play-state: running;
-}
-
-@keyframes ftX {
-  0% {
-    background-position-x: 100%, 0;
-  }
-  100% {
-    background-position-x: 100%, 33rem;
-  }
-}
-@keyframes ftY {
-  100% {
-    background-position-y: 100%, 0;
-  }
-  0% {
-    background-position-y: 100%, 33rem;
-  }
-}
+/* .my-footer{
+  
+} */
