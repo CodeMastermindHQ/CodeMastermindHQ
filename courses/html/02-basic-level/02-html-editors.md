@@ -1,6 +1,5 @@
 ---
-sidebar_position: 2
-id: html-editors
+id: 02-html-editors
 title: HTML Editors
 date: 2023-07-01 2:47:08
 tags: [HTML Editors, Choosing an HTML Editor, Popular HTML Editors, Visual Studio Code, Sublime Text, Atom, Adobe Dreamweaver, Web Development Tools, Code Editors, Best HTML Editors]

@@ -1,6 +1,5 @@
 ---
-sidebar_position: 1
-id: intro-html
+id: 01-intro-html
 title: Introduction of HTML
 date: 2023-07-01 2:47:08
 tags: [HTML basics, HTML syntax, HTML structure, HTML document setup, HTML file viewing, TML web page structure, HTML title tag, HTML meta description tag, HTML web development introduction]
@@ -14,6 +13,10 @@ import card from '@site/src/css/markdown.module.css'
 
 ## What is HTML?
 HTML (Hypertext Markup Language) is the standard markup language used for creating and structuring web pages. It provides a way to describe the structure and content of a webpage using tags and elements. HTML documents are interpreted by web browsers to display the webpage to users.
+
+:::tip 
+HTML was first introduced by **Tim Berners-Lee** in 1990 as a way to share scientific information on the internet
+:::
 
 ### HTML Structure and Syntax
 HTML documents follow a specific structure and syntax:
