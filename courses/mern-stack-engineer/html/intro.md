@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-id: intro-html
+id: intro
 title: Welcome to HTML
 date: 2023-07-01 2:47:08
 ---
