@@ -1,53 +1,49 @@
-# Website
+# Website: CodeMastermindHQ
 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/af9f9088-4e9f-433e-b070-2edd6c7e8218/deploy-status)](https://app.netlify.com/sites/codemastermindhq/deploys)
 
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+## Software Development Life Cycle (SDLC) model for CodeMastermindHQ:
 
-Here's how you can deploy your Docusaurus 2 website using npm instead with GitHub Pages:
+### 1. Requirements Analysis:
+   - Describe the purpose and objectives of the project/site.
+   - Identify the stakeholders and their requirements.
+   - Document the functional and non-functional requirements for the site.
+   - Include any user stories or use cases to outline the desired functionality.
 
-### Step 1: Install Dependencies
-In your project directory, open a terminal and run the following command to install the dependencies:
-```
-npm install
-```
+### 2. Design:
+   - Explain the overall architecture and design approach.
+   - Provide a high-level overview of the system components and their interactions.
+   - Include any relevant diagrams such as system architecture, data flow, or user interface.
+   - Specify the technologies, frameworks, and libraries used in the implementation.
 
-### Step 2: Local Development
-To start a local development server and open up a browser window, run the following command:
-```
-npm start
-```
-This will reflect most changes live without having to restart the server.
+### 3. Implementation/Coding:
+   - Describe the development environment and tools used.
+   - Explain the directory structure and organization of the codebase.
+   - Document the coding conventions and standards followed.
+   - Include snippets or examples of key code segments or modules.
 
-### Step 3: Build
-To generate static content into the build directory, run the following command:
-```
-npm run build
-```
+### 4. Testing:
+   - Explain the testing strategy adopted for the project.
+   - Describe the types of testing performed (e.g., unit testing, integration testing, acceptance testing).
+   - Provide test cases and expected results for each type of testing.
+   - Document any tools or frameworks used for automated testing.
 
-### Step 4: Deployment
-To deploy your website, you can use GitHub Pages or any other static content hosting service. Assuming you are using GitHub Pages, follow these steps:
+### 5. Deployment:
+   - Explain the deployment process and hosting platform (e.g., Netlify).
+   - Document any server-side configurations or dependencies.
+   - Specify the steps to build and deploy the code to the hosting platform.
+   - Include any instructions for setting up SSL certificates or domain configuration.
 
-1. Set up your repository for GitHub Pages as mentioned in the previous instructions.
-2. Open your `package.json` file in a code editor.
-3. Update the `"scripts"` section as follows:
-   ```json
-   "scripts": {
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build",
-     "clean": "gh-pages-clean",
-     "start": "docusaurus start",
-     "build": "docusaurus build",
-     "serve": "docusaurus serve"
-   }
-   ```
+### 6. Maintenance and Support:
+   - Describe the ongoing maintenance and support plan.
+   - Document the process for handling bug reports or feature requests.
+   - Include instructions for how to update dependencies and frameworks.
+   - Outline any monitoring or logging mechanisms in place for site performance.
 
-### 4. In the terminal, run the following command to deploy your website to GitHub Pages:
-   ```
-   npm run deploy
-   ```
-   This command will build the website and push it to the `gh-pages` branch.
-
-Ensure that the necessary changes are made to the `docusaurus.config.js` file according to your project and repository settings.
+### 7. Project Management:
+   - Provide an overview of the project timeline and milestones.
+   - Document any project management tools used (e.g., GitHub issues, Trello).
+   - Explain the collaboration and communication channels within the development team.
+   - Include any lessons learned or reflections on the development process.
