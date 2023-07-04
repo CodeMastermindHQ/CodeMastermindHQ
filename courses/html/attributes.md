@@ -67,14 +67,14 @@ import card from '@site/src/css/markdown.module.css'
     <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" alt="Image" width="40" />
     <p>Hello World!</p>
     <script src="./script.js"></script> <br />
-    <iframe src="https://ajay-dhangar.github.io/" width="100%" height="200px"></iframe>
+    <iframe src="https://ajay-dhangar.github.io/MERN-Stack/JAVASCRIPT/basic-level/intro-js.html" width="100%" height="250px"></iframe>
   ```
 
   :::info Live Preview
    <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" alt="Image" width="40" />
     <p>Hello World!</p>
     <script src="./script.js"></script> <br />
-    <iframe src="https://ajay-dhangar.github.io/" width="100%" height="200px"></iframe>
+    <iframe src="https://ajay-dhangar.github.io/MERN-Stack/JAVASCRIPT/basic-level/intro-js.html" width="100%" height="250px"></iframe>
   :::
   
 - In the above examples, the `src` attribute is used to provide the source location for an image, a JavaScript file, and an external webpage respectively.

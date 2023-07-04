@@ -26,7 +26,6 @@ const config = {
     isDeployPreview,
     description: 'Ajay Dhangar',
   },
-
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -93,6 +92,8 @@ const config = {
         pages: {
           remarkPlugins: [npm2yarn],
         },
+
+        
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -104,9 +105,8 @@ const config = {
   ],
 
   themes: ['@docusaurus/theme-live-codeblock'],
-
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */    
     ({
       docs: {
         sidebar: {
@@ -286,8 +286,9 @@ const config = {
             line: 'This will error',
           },
         ],
-      },
+      },       
     }),
+   
   plugins: [
     './src/plugins/webpackProxy',
     [
@@ -296,6 +297,7 @@ const config = {
         languages: ['en'], // language codes
       },
     ],
+    
     [
       '@docusaurus/plugin-content-docs',
       /** @type {import('@docusaurus/plugin-content-docs').Options} */

@@ -43,14 +43,14 @@ HTML offers six heading tags, `<h1>` to `<h6>`, representing headings of differe
    <h6>This is a Heading 6</h6>
    ```
 
-   :::info Live Preview
+   <BrowserWindow>
    <h1>This is a Heading 1</h1>
    <h2>This is a Heading 2</h2>
    <h3>This is a Heading 3</h3>
    <h4>This is a Heading 4</h4>
    <h5>This is a Heading 5</h5>
    <h6>This is a Heading 6</h6>
-   :::
+   </BrowserWindow>
 
 4. Save the HTML file and open it in a web browser. You will see the headings displayed with their respective sizes.
 
