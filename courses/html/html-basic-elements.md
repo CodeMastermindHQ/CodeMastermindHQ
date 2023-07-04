@@ -15,6 +15,9 @@ import card from '@site/src/css/markdown.module.css'
 
 In this tutorial, we will cover the fundamental elements of HTML. These elements form the building blocks of web pages and include the `<html>`, `<head>`, `<body>`, `<h1>` to `<h6>`, `<p>`, and `<a>` tags.
 
+![HTML Elements](./img/elements.png)
+
+
 **1. The `<html>` Tag:**
 The `<html>` tag represents the root element of an HTML document. It contains the entire web page's content and serves as the container for other elements.
 

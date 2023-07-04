@@ -1,6 +1,6 @@
 ---
 title: Where Google Photos Hides Direct Links to Your Uploaded Images
-authors: [papa31]
+authors: [ajay-dhangar]
 tags: [Google Photos, social media]
 date: 2021-10-05 18:44:08
 description: How to find a direct link to embed Google Photos images on social media or on your website

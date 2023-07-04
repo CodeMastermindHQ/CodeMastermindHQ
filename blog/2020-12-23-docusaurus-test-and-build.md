@@ -1,6 +1,6 @@
 ---
 title: 'Docusaurus: Test & Build'
-authors: [papa31]
+authors: [ajay-dhangar]
 tags: [docusaurus, settings, broken links, env]
 description: Setup all 3 ways Docusaurus start
 image: i.imgur.com/mErPwqL.png

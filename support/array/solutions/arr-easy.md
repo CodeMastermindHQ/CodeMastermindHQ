@@ -9,6 +9,7 @@ sidebar_position: 1
 
 ### 1. Maximum and Minimum Element in an Array 
 
+![Maximum and Minimum Element in an Array](./../img/maximum-and-minimum-element-in-an-array.svg)
 
 ### 2. Reverse the Array 
    
@@ -26,6 +27,8 @@ sidebar_position: 1
 ### 7. Pascal's Triangle 
 
 ### 8. Best Time to Buy and Sell Stock 
+
+![Best Time to Buy and Sell Stock](./../img/best-time-to-buy-and-sell-stock.svg)
 
 ### 9.  Merge Sorted Array 
 

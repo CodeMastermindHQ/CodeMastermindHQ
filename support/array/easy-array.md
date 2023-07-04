@@ -12,30 +12,30 @@ sidebar_position: 2
    
    | Problem | Solution | Video |Tutorial |
    |:-------:|:--------:|:--------:|:--------:|
-   | [LeetCode](https://leetcode.com/discuss/interview-question/3593060/Maximum-and-Minimum-Element-in-an-Array) | [LeetCode](https://leetcode.com/discuss/interview-question/3593060/Maximum-and-Minimum-Element-in-an-Array/1915347) |Cooming Soon... | [CodeMasterMinmdHQ](https://github.com/Ajay-Dhangar/CodeMastermindHQ/blob/main/solution/arrays/easy/code-in-java/Ex_1.java) |
+   | [LeetCode](https://leetcode.com/discuss/interview-question/3593060/Maximum-and-Minimum-Element-in-an-Array) | [LeetCode](https://leetcode.com/discuss/interview-question/3593060/Maximum-and-Minimum-Element-in-an-Array/1915347) |Cooming Soon... | [CodeMasterMinmdHQ](/support/array/solutions/array-easy-problems-solution#1-maximum-and-minimum-element-in-an-array) |
 ### 2. Reverse the Array 
    
    | Problem | Solution |Video |Tutorial |
    |:-------:|:--------:|:--------:|:--------:|
-   | [LeetCode](https://leetcode.com/discuss/interview-question/3593148/Reverse-the-Array) |[LeetCode](https://leetcode.com/discuss/interview-question/3593148/Reverse-the-Array/1915383) |Cooming Soon... | [CodeMasterMindHQ](https://github.com/Ajay-Dhangar/CodeMastermindHQ/blob/main/solution/arrays/easy/code-in-java/Ex_2.java) |
+   | [LeetCode](https://leetcode.com/discuss/interview-question/3593148/Reverse-the-Array) |[LeetCode](https://leetcode.com/discuss/interview-question/3593148/Reverse-the-Array/1915383) |Cooming Soon... | [CodeMasterMindHQ](/support/array/solutions/array-easy-problems-solution#2-reverse-the-array) |
 
 ### 3. Maximum-Subarray (Kadane's Algorithm) 
 
    | Problem | Solution |Video |Tutorial |
    |:-------:|:--------:|:--------:|:--------:|
-   | [LeetCode](https://leetcode.com/problems/maximum-subarray/) |[LeetCode](https://leetcode.com/problems/maximum-subarray/solutions/2671118/runtime-1ms-and-faster-100-in-java-easy-and-understanding-solution-in-java/) |Cooming Soon... | [CodeMasterMindHQ](https://github.com/Ajay-Dhangar/CodeMastermindHQ/blob/main/solution/arrays/easy/code-in-java/Ex_3.java) |
+   | [LeetCode](https://leetcode.com/problems/maximum-subarray/) |[LeetCode](https://leetcode.com/problems/maximum-subarray/solutions/2671118/runtime-1ms-and-faster-100-in-java-easy-and-understanding-solution-in-java/) |Cooming Soon... | [CodeMasterMindHQ](/support/array/solutions/arr-easy.md#3-maximum-subarray-kadanes-algorithm) |
 
 ### 4. Contains Duplicate 
 
    | Problem | Solution |Video |Tutorial |
    |:-------:|:--------:|:--------:|:--------:|
-   | [LeetCode](https://leetcode.com/problems/contains-duplicate/) |[LeetCode](https://leetcode.com/problems/contains-duplicate/solutions/2671057/easy-and-very-understanding-solution-in-java/) |Cooming Soon... | [CodeMasterMindHQ](https://github.com/Ajay-Dhangar/CodeMastermindHQ/blob/main/solution/arrays/easy/code-in-java/Ex_4.java) |
+   | [LeetCode](https://leetcode.com/problems/contains-duplicate/) |[LeetCode](https://leetcode.com/problems/contains-duplicate/solutions/2671057/easy-and-very-understanding-solution-in-java/) |Cooming Soon... | [CodeMasterMindHQ](/support/array/solutions/arr-easy.md#4-contains-duplicate) |
 
 ### 5. Chocolate Distribution Problem 
 
    | Problem | Solution |Video |Tutorial |
    |:-------:|:--------:|:--------:|:--------:|
-   | LeetCode, [GFG](https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1) |LeetCode |Cooming Soon... | CodeMasterMindHQ|
+   | LeetCode, [GFG](https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1) |LeetCode |Cooming Soon... | [CodeMasterMindHQ](/support/array/solutions/arr-easy.md#5-chocolate-distribution-problem)|
 
 ### 6. Search in Rotated Sorted Array 
 
@@ -47,25 +47,25 @@ sidebar_position: 2
 
    | Problem | Solution |Video |Tutorial |
    |:-------:|:--------:|:--------:|:--------:|
-   | [LeetCode](https://leetcode.com/problems/pascals-triangle/) |LeetCode |Cooming Soon... | [CodeMasterMindHQ](https://github.com/Ajay-Dhangar/CodeMastermindHQ/blob/main/solution/arrays/easy/code-in-java/Ex_7.java)|
+   | [LeetCode](https://leetcode.com/problems/pascals-triangle/) |LeetCode |Cooming Soon... | [CodeMasterMindHQ](/support/array/solutions/arr-easy.md#7-pascals-triangle)|
 
 ### 8. Best Time to Buy and Sell Stock 
 
    | Problem | Solution |Video |Tutorial |
    |:-------:|:--------:|:--------:|:--------:|
-   | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |LeetCode |Cooming Soon... | CodeMasterMindHQ|
+   | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |LeetCode |Cooming Soon... | [CodeMasterMindHQ](/support/array/solutions/array-easy-problems-solution#8-best-time-to-buy-and-sell-stock)|
 
 ### 9.  Merge Sorted Array 
 
    | Problem | Solution |Video |Tutorial |
    |:-------:|:--------:|:--------:|:--------:|
-   | [LeetCode](https://leetcode.com/problems/merge-sorted-array/) |LeetCode |Cooming Soon... | CodeMasterMindHQ|
+   | [LeetCode](https://leetcode.com/problems/merge-sorted-array/) |LeetCode |Cooming Soon... | [CodeMasterMindHQ](/support/array/solutions/arr-easy.md#9-merge-sorted-array)|
 
 ### 10. Majority Element
 
    | Problem | Solution |Video |Tutorial |
    |:-------:|:--------:|:--------:|:--------:|
-   | [LeetCode](https://leetcode.com/problems/majority-element/) |LeetCode |Cooming Soon... | CodeMasterMindHQ|
+   | [LeetCode](https://leetcode.com/problems/majority-element/) |LeetCode |Cooming Soon... | [CodeMasterMindHQ](/support/array/solutions/arr-easy.md#10-majority-element)|
 
 ### 11. Two Sum
 

@@ -50,7 +50,7 @@ const config = {
               // Optional fields.
               anonymizeIP: true, // Should IPs be anonymized?
             }
-          : undefined,
+          : undefined,         
         blog: {
           path: 'blog',
           // Simple use-case: string editUrl
