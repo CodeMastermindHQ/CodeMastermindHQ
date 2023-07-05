@@ -12,12 +12,12 @@ sidebar_position: 2
    
    | Problem | Solution | Video |Tutorial |
    |:-------:|:--------:|:--------:|:--------:|
-   | [LeetCode](https://leetcode.com/discuss/interview-question/3593060/Maximum-and-Minimum-Element-in-an-Array) | [LeetCode](https://leetcode.com/discuss/interview-question/3593060/Maximum-and-Minimum-Element-in-an-Array/1915347) |Cooming Soon... | [CodeMasterMinmdHQ](/support/array/solutions/array-easy-problems-solution#1-maximum-and-minimum-element-in-an-array) |
+   | [LeetCode](https://leetcode.com/discuss/interview-question/3593060/Maximum-and-Minimum-Element-in-an-Array) | [LeetCode](https://leetcode.com/discuss/interview-question/3593060/Maximum-and-Minimum-Element-in-an-Array/1915347) | [You Tube](https://youtu.be/iSyadA99UYE) | [CodeMasterMinmdHQ](/support/array/solutions/array-easy-problems-solution#1-maximum-and-minimum-element-in-an-array) |
 ### 2. Reverse the Array 
    
    | Problem | Solution |Video |Tutorial |
    |:-------:|:--------:|:--------:|:--------:|
-   | [LeetCode](https://leetcode.com/discuss/interview-question/3593148/Reverse-the-Array) |[LeetCode](https://leetcode.com/discuss/interview-question/3593148/Reverse-the-Array/1915383) |Cooming Soon... | [CodeMasterMindHQ](/support/array/solutions/array-easy-problems-solution#2-reverse-the-array) |
+   | [LeetCode](https://leetcode.com/discuss/interview-question/3593148/Reverse-the-Array) |[LeetCode](https://leetcode.com/discuss/interview-question/3593148/Reverse-the-Array/1915383) | [You Tube](https://youtu.be/fiXdHkLrpfo) | [CodeMasterMindHQ](/support/array/solutions/array-easy-problems-solution#2-reverse-the-array) |
 
 ### 3. Maximum-Subarray (Kadane's Algorithm) 
 
