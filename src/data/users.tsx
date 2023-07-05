@@ -61,7 +61,9 @@ export type TagType =
   | 'large'
   | 'meta'
   | 'personal'
-  | 'rtl';
+  | 'templates'
+  | 'potfolio'  
+  | 'clone';
 
 export type User = {
   title: string;
@@ -81,7 +83,7 @@ export const Tags: {[type in TagType]: Tag} = {
   favorite: {
     label: 'Favorite',
     description:
-      'Our favorite Docusaurus sites that you must absolutely check-out!',
+      'Our favorite CodeMastermindHQ sites that you must absolutely check-out!',
     color: '#e9669e',
   },
 
@@ -89,34 +91,34 @@ export const Tags: {[type in TagType]: Tag} = {
   // The source should be your *website's* source, not your project's source!
   opensource: {
     label: 'Open-Source',
-    description: 'Open-Source Docusaurus sites can be useful for inspiration!',
+    description: 'Open-Source CodeMastermindHQ sites can be useful for inspiration!',
     color: '#39ca30',
   },
 
   product: {
     label: 'Product',
-    description: 'Docusaurus sites associated to a commercial product!',
+    description: 'CodeMastermindHQ sites associated to a commercial product!',
     color: '#dfd545',
   },
 
   design: {
     label: 'Design',
     description:
-      'Beautiful Docusaurus sites, polished and standing out from the initial template!',
+      'Beautiful CodeMastermindHQ sites, polished and standing out from the initial template!',
     color: '#a44fb7',
   },
 
   i18n: {
     label: 'I18n',
     description:
-      'Translated Docusaurus sites using the internationalization support with more than 1 locale.',
+      'Translated CodeMastermindHQ sites using the internationalization support with more than 1 locale.',
     color: '#127f82',
   },
 
   versioning: {
     label: 'Versioning',
     description:
-      'Docusaurus sites using the versioning feature of the docs plugin to manage multiple versions.',
+      'CodeMastermindHQ sites using the versioning feature of the docs plugin to manage multiple versions.',
     color: '#fe6829',
   },
 
@@ -124,29 +126,43 @@ export const Tags: {[type in TagType]: Tag} = {
   large: {
     label: 'Large',
     description:
-      'Very large Docusaurus sites, including many more pages than the average!',
+      'Very large CodeMastermindHQ sites, including many more pages than the average!',
     color: '#8c2f00',
   },
 
   meta: {
     label: 'Meta',
-    description: 'Docusaurus sites of Meta (formerly Facebook) projects',
-    color: '#4267b2', // Facebook blue
+    description: 'CodeMastermindHQ sites of Meta projects',
+    color: '#4267b2', // CodeMastermindHQ blue
   },
 
   personal: {
     label: 'Personal',
     description:
-      'Personal websites, blogs and digital gardens built with Docusaurus',
+      'Personal websites, blogs and digital gardens built with CodeMastermindHQ',
     color: '#14cfc3',
   },
 
-  rtl: {
-    label: 'RTL Direction',
+  templates: {
+    label: 'Templates',
     description:
-      'Docusaurus sites using the right-to-left reading direction support.',
+      'CodeMastermindHQ sites using the templates reading direction support.',
     color: '#ffcfc3',
   },
+  potfolio: {
+    label: 'Potfolio',
+    description:
+      'CodeMastermindHQ sites using the coding direction for potfolio.',
+    color: '#ff4400',
+  },
+
+  clone: {
+    label: 'Clone',
+    description:
+      'CodeMastermindHQ sites using the clone projects reading',
+    color: '#004400',
+  },
+
 };
 
 // Add your site to this list
@@ -154,21 +170,29 @@ export const Tags: {[type in TagType]: Tag} = {
 const Users: User[] = [
  
   {
-    title: 'Zowe',
-    description:
-      'Open source framework for leveraging data and applications in z/OS',
-    preview: require('./showcase/zowe.png'),
-    website: 'https://docs.zowe.org',
-    source: 'https://github.com/zowe/docs-site',
-    tags: ['opensource', 'product', 'large', 'design', 'versioning'],
+    title: 'You Tube Clone',
+    description: 'Build and Deploy a Modern YouTube Clone Application in React JS with Material UI 5',
+    preview: require('./showcase/YouTube-Clone.jpg'),
+    website: 'https://my-youtube-ajay.vercel.app/',
+    source: 'https://github.com/Ajay-Dhangar/youtube_clone',
+    tags: ['opensource', 'clone'],
   },
   {
-    title: '404Lab.Wiki',
-    description: 'Docs and blogs about development and study',
-    preview: require('./showcase/404lab-wiki.png'),
-    website: 'https://wiki.404lab.top',
-    source: 'https://github.com/HiChen404/MyWikiSite',
-    tags: ['opensource', 'personal'],
+    title: 'GERIGHT',
+    description: 'Experience culinary excellence at Gericht Restaurant: Modern UI, showcasing The Key To Fine Dining.',
+    preview: require('./showcase/gericht-restaurant-modern-ui.jpg'),
+    website: 'https://ajay-1.vercel.app/',
+    source: 'https://github.com/Ajay-Dhangar/gericht-restaurant-modern-ui',
+    tags: ['opensource', 'templates'],
+  },
+
+  {
+    title: 'Potfolio',
+    description: "Check out Ajay Dhangar's impressive portfolio showcasing skills, projects, and achievements. Explore now!",
+    preview: require('./showcase/ajay-dhangar.jpg'),
+    website: 'https://ajay-dhangar.github.io/',
+    source: 'https://github.com/Ajay-Dhangar/Ajay-Dhangar.github.io',
+    tags: ['potfolio', 'personal'],
   },
   /*
   Pro Tip: add your site in alphabetical order.
