@@ -9,6 +9,29 @@ sidebar_position: 1
 
 ### 1. Maximum and Minimum Element in an Array 
 
+![Maximum and Minimum Element in an Array](./../img/1-maximum-and-minimum-element-in-an-array.svg)
+
+**Explanation:**
+
+1. The code starts by taking input from the user for the size of the array (`n`) and then the elements of the array (`arr`).
+
+2. The `Solution` class contains the `MaxMinArray` method, which takes the array `arr` and its size `n` as input and returns an array containing the minimum and maximum values.
+
+3. Inside the `MaxMinArray` method, we initialize two variables, `minValue` and `maxValue`, to the first element of the array (`arr[0]`). This is done as we need some initial values to start comparing with the rest of the array elements.
+
+4. We then iterate through the array starting from index 1 (since we have already initialized the variables with the first element).
+
+5. Inside the loop, we use the `Math.min()` method to find the minimum value between the current `minValue` and the element at index `i` in the array. This way, we keep updating the `minValue` if we find a smaller element in the array.
+
+6. Similarly, we use the `Math.max()` method to find the maximum value between the current `maxValue` and the element at index `i` in the array. This way, we keep updating the `maxValue` if we find a larger element in the array.
+
+7. After the loop, we have obtained the `minValue` and `maxValue`, so we return them as a new array using the `return new int[]{minValue, maxValue};`.
+
+**Time Complexity:**
+- The time complexity of this solution is ***O(n)*** because we are iterating through the array once to find the minimum and maximum values.
+
+**Space Complexity:**
+- The space complexity is ***O(1)*** because we are using a constant amount of extra space (two integer variables) regardless of the
 
 ### 2. Reverse the Array 
    
