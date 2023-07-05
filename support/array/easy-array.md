@@ -12,7 +12,7 @@ sidebar_position: 2
    
    | Problem | Solution | Video |Tutorial |
    |:-------:|:--------:|:--------:|:--------:|
-   | [LeetCode](https://leetcode.com/discuss/interview-question/3593060/Maximum-and-Minimum-Element-in-an-Array) | [LeetCode](https://leetcode.com/discuss/interview-question/3593060/Maximum-and-Minimum-Element-in-an-Array/1915347) |Cooming Soon... | [CodeMasterMinmdHQ](https://github.com/Ajay-Dhangar/CodeMastermindHQ/blob/main/solution/arrays/easy/code-in-java/Ex_1.java) |
+   | [LeetCode](https://leetcode.com/discuss/interview-question/3593060/Maximum-and-Minimum-Element-in-an-Array) | [LeetCode](https://leetcode.com/discuss/interview-question/3593060/Maximum-and-Minimum-Element-in-an-Array/1915347) |[You Tube](https://youtu.be/iSyadA99UYE) | [CodeMasterMinmdHQ](/support/array/solutions/array-easy-problems-solution#1-maximum-and-minimum-element-in-an-array) |
 ### 2. Reverse the Array 
    
    | Problem | Solution |Video |Tutorial |
