@@ -41,7 +41,7 @@ sidebar_position: 2
 
    | Problem | Solution |Video |Tutorial |
    |:-------:|:--------:|:--------:|:--------:|
-   | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) |LeetCode |Cooming Soon... | CodeMasterMindHQ|
+   | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) |LeetCode |Cooming Soon... | [CodeMasterMindHQ](/support/array/solutions/array-easy-problems-solution#6-search-in-rotated-sorted-array)|
 
 ### 7. Pascal's Triangle 
 
