@@ -1,9 +1,3 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
 
 import React, {useState, useMemo, useEffect} from 'react';
 // @ts-ignore
@@ -35,10 +29,10 @@ import {usePluralForm} from '@docusaurus/theme-common';
 
 import styles from './styles.module.css';
 
-const TITLE = 'Docusaurus Site Showcase';
-const DESCRIPTION = 'List of websites people are building with Docusaurus';
+const TITLE = 'CodeMastermindHQ: Showcasing Exceptional Websites, Templates, and Project';
+const DESCRIPTION = 'Unleash your creativity and expertise with our exceptional Site/Templates/Projects Showcase at CodeMastermindHQ: Where Innovation Meets Inspiration.';
 const EDIT_URL =
-  'https://github.com/facebook/docusaurus/edit/main/website/src/data/users.tsx';
+  'https://github.com/CodeMastermindHQ/CodeMastermindHQ/edit/main/src/data/users.tsx';
 
 type UserState = {
   scrollTopPosition: number;
@@ -130,7 +124,7 @@ function ShowcaseHeader() {
         target="_blank"
         rel="noreferrer">
         <Translate id="showcase.header.button">
-          🙏 Please add your site
+        🌟 Join the CodeMastermindHQ Showcase: Add Your Site!
         </Translate>
       </a>
     </section>
