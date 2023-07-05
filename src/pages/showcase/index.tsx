@@ -124,7 +124,7 @@ function ShowcaseHeader() {
         target="_blank"
         rel="noreferrer">
         <Translate id="showcase.header.button">
-        🌟 Join the CodeMastermindHQ Showcase: Add Your Site!
+        🌟 Join the CodeMastermindHQ Showcase!
         </Translate>
       </a>
     </section>
