@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React, {useState, useMemo, useEffect} from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 // @ts-ignore
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
@@ -29,17 +29,17 @@ import {
 import ShowcaseTooltip from '../showcase/_components/ShowcaseTooltip';
 
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
-import Translate, {translate} from '@docusaurus/Translate';
-import {useHistory, useLocation} from '@docusaurus/router';
-import {usePluralForm} from '@docusaurus/theme-common';
+import Translate, { translate } from '@docusaurus/Translate';
+import { useHistory, useLocation } from '@docusaurus/router';
+import { usePluralForm } from '@docusaurus/theme-common';
 
 import styles from '../showcase/styles.module.css';
 import styles1 from './styles.module.css';
 
-const TITLE = 'Docusaurus Site Showcase';
-const DESCRIPTION = 'List of websites people are building with Docusaurus';
+const TITLE = 'CodeMastermindHQ: Showcasing Exceptional Websites';
+const DESCRIPTION = 'Unleash your creativity and expertise with our exceptional Site/Projects Showcase at CodeMastermindHQ: Where Innovation Meets Inspiration.';
 const EDIT_URL =
-  'https://github.com/facebook/docusaurus/edit/main/website/src/data/users.tsx';
+  'https://github.com/CodeMastermindHQ/CodeMastermindHQ/edit/main/src/data/users.tsx';
 
 type UserState = {
   scrollTopPosition: number;
@@ -47,13 +47,13 @@ type UserState = {
 };
 
 function restoreUserState(userState: UserState | null) {
-  const {scrollTopPosition, focusedElementId} = userState ?? {
+  const { scrollTopPosition, focusedElementId } = userState ?? {
     scrollTopPosition: 0,
     focusedElementId: undefined,
   };
   // @ts-expect-error: if focusedElementId is undefined it returns null
   document.getElementById(focusedElementId)?.focus();
-  window.scrollTo({top: scrollTopPosition});
+  window.scrollTo({ top: scrollTopPosition });
 }
 
 export function prepareUserState(): UserState | undefined {
@@ -131,7 +131,7 @@ function ShowcaseHeader() {
         target="_blank"
         rel="noreferrer">
         <Translate id="showcase.header.button">
-          🙏 Please add your site
+          🌟 Join the CodeMastermindHQ Showcase!
         </Translate>
       </a>
     </section>
@@ -139,7 +139,7 @@ function ShowcaseHeader() {
 }
 
 function useSiteCountPlural() {
-  const {selectMessage} = usePluralForm();
+  const { selectMessage } = usePluralForm();
   return (sitesCount: number) =>
     selectMessage(
       sitesCount,
@@ -150,7 +150,7 @@ function useSiteCountPlural() {
             'Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by "|") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)',
           message: '1 site|{sitesCount} sites',
         },
-        {sitesCount},
+        { sitesCount },
       ),
     );
 }
@@ -171,7 +171,7 @@ function ShowcaseFilters() {
       </div>
       <ul className={clsx('clean-list', styles.checkboxList)}>
         {TagList.map((tag, i) => {
-          const {label, description, color} = Tags[tag];
+          const { label, description, color } = Tags[tag];
           const id = `showcase_checkbox_id_${tag}`;
 
           return (
@@ -369,17 +369,17 @@ export default function Showcase(): JSX.Element {
                       'versioning',
                     ],
                   }}
-                />
+                /> 
                 <ShowcaseCard
-                  key="WoodpeckerCI"
+                  key="You Tube Clone"
                   user={{
-                    title: 'WoodpeckerCI',
-                    description: 'A simple CI engine with great extensibility.',
-                    preview: require('../../data/showcase/woodpecker.png'),
-                    website: 'https://woodpecker-ci.org/',
+                    title: 'You Tube Clone',
+                    description: 'Build and Deploy a Modern YouTube Clone Application in React JS with Material UI 5',
+                    preview: require('../../data/showcase/YouTube-Clone.jpg'),
+                    website: 'https://my-youtube-ajay.vercel.app/',
                     source:
-                      'https://github.com/woodpecker-ci/woodpecker/tree/master/docs',
-                    tags: ['opensource'],
+                      'https://github.com/Ajay-Dhangar/youtube_clone',
+                    tags: ['opensource', 'clone'],
                   }}
                 />
               </ul>
@@ -401,12 +401,11 @@ export default function Showcase(): JSX.Element {
                       filter: 'none',
                     }}></div>
                   <div className={styles1.portfolio_section__project_title}>
-                    Serverless
+                    Users
                   </div>
                   <div
                     className={styles1.portfolio_section__project_description}>
-                    Создавать простые навыки Алисы на базе Yandex Cloud
-                    Functions
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </div>
                 </div>
                 <div className={styles1.portfolio_section__project}>
@@ -420,12 +419,11 @@ export default function Showcase(): JSX.Element {
                       filter: 'none',
                     }}></div>
                   <div className={styles1.portfolio_section__project_title}>
-                    Kubernetes®
+                    Developer
                   </div>
                   <div
                     className={styles1.portfolio_section__project_description}>
-                    Запускать контейнеры и создавать кластер с помощью Yandex
-                    Managed Service for Kubernetes®
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </div>
                 </div>
                 <div className={styles1.portfolio_section__project}>
@@ -439,12 +437,11 @@ export default function Showcase(): JSX.Element {
                       filter: 'none',
                     }}></div>
                   <div className={styles1.portfolio_section__project_title}>
-                    Управляемые базы данных
+                    Software Engineer
                   </div>
                   <div
                     className={styles1.portfolio_section__project_description}>
-                    Настраивать кластеры управляемых баз данных, хранить
-                    и&nbsp;анализировать данные в&nbsp;облаке
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                   </div>
                 </div>
               </div>

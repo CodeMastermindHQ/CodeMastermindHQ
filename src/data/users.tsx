@@ -62,7 +62,7 @@ export type TagType =
   | 'meta'
   | 'personal'
   | 'templates'
-  | 'potfolio'  
+  | 'portfolio'  
   | 'clone';
 
 export type User = {
@@ -149,10 +149,10 @@ export const Tags: {[type in TagType]: Tag} = {
       'CodeMastermindHQ sites using the templates reading direction support.',
     color: '#ffcfc3',
   },
-  potfolio: {
-    label: 'Potfolio',
+  portfolio: {
+    label: 'portfolio',
     description:
-      'CodeMastermindHQ sites using the coding direction for potfolio.',
+      'CodeMastermindHQ sites using the coding direction for portfolio.',
     color: '#ff4400',
   },
 
@@ -187,12 +187,12 @@ const Users: User[] = [
   },
 
   {
-    title: 'Potfolio',
+    title: 'portfolio',
     description: "Check out Ajay Dhangar's impressive portfolio showcasing skills, projects, and achievements. Explore now!",
     preview: require('./showcase/ajay-dhangar.jpg'),
     website: 'https://ajay-dhangar.github.io/',
     source: 'https://github.com/Ajay-Dhangar/Ajay-Dhangar.github.io',
-    tags: ['potfolio', 'personal'],
+    tags: ['portfolio', 'personal'],
   },
   /*
   Pro Tip: add your site in alphabetical order.
