@@ -122,12 +122,12 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'vs-code/snippets/all-vscode-snippets',
-            label: '📚 Tutorials',
-            position: 'left',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'vs-code/snippets/all-vscode-snippets',
+          //   label: '📚 Tutorials',
+          //   position: 'left',
+          // },
           {
             to: '/courses',
             label: '🔍 Courses',
