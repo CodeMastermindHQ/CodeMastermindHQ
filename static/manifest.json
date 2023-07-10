@@ -1,6 +1,6 @@
 {
-  "name": "human and machine",
-  "short_name": "hm",
+  "name": "codemastermindhq",
+  "short_name": "codemastermind",
   "theme_color": "#2196f3",
   "background_color": "#424242",
   "display": "standalone",
@@ -9,7 +9,7 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://papa31.github.io/hm/manifest.json"
+      "url": "https://codemastermindhq.netlify.app//manifest.json"
     }
   ],
   "icons": [
