@@ -8,32 +8,62 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'HTML 5',
+    imageUrl: 'dev-img/html.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        The latest version of the markup language for web pages, introducing enhanced 
+        semantics, multimedia support, and improved accessibility.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'CSS 3',
+    imageUrl: 'dev-img/css3.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The latest version of CSS that brings exciting enhancements like animations, 
+        gradients, and transitions, empowering modern web design.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'React',
+    imageUrl: 'dev-img/react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A powerful JavaScript library for building user interfaces. 
+        It enables efficient rendering and modular component-based development.
+      </>
+    ),
+  },
+  {
+    title: 'Node',
+    imageUrl: 'dev-img/node-js.svg',
+    description: (
+      <>
+        A powerful JavaScript runtime built on Chrome's V8 engine, enabling scalable 
+        and efficient server-side and networking applications.
+      </>
+    ),
+  },
+  {
+    title: 'MongoDB',
+    imageUrl: 'dev-img/mongodb.svg',
+    description: (
+      <>
+        A flexible and scalable NoSQL database that stores data in JSON-like documents, 
+        offering high performance and easy scalability.
+      </>
+    ),
+  },
+  {
+    title: 'Express Js',
+    imageUrl: 'dev-img/express-js.svg',
+    description: (
+      <>
+        A fast and minimalistic web application framework for Node.js, making server-side 
+        development in JavaScript a breeze
       </>
     ),
   },
@@ -48,7 +78,7 @@ function Feature({imageUrl, title, description}) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
+      <h3 style={{textAlign:'center'}}>{title}</h3>
       <p>{description}</p>
     </div>
   );
@@ -80,8 +110,8 @@ function Home() {
       <main>
         <div className={clsx(styles.announcement, styles.announcementDark)}>
           <div className={styles.announcementInner}>
-            <Link>Soul Core</Link>
-            <p>The core is simpler than the soul. Till.</p>
+            <Link><q>Unleash Your Coding Potential</q></Link>
+            <p>Elevate your coding journey with CodeMastermindHQ. Embrace the power of code, where possibilities become reality.</p>
           </div>
         </div>
         {features && features.length > 0 && (

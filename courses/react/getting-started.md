@@ -5,6 +5,12 @@ sidebar_label: Getting Started
 sidebar_position: 2
 ---
 
+```mdx-code-block
+import BrowserWindow from '@site/src/components/BrowserWindow';
+import CodeBlock from '@theme/CodeBlock';
+import card from '@site/src/css/markdown.module.css'
+```
+
 Create React App is an officially supported way to create single-page React applications. It provides a modern build setup with zero configuration required.
 
 ## Quick Start
@@ -21,9 +27,12 @@ If you have previously installed `create-react-app` globally using `npm install 
 
 Once the above commands have executed successfully, open [http://localhost:3000/](http://localhost:3000/) in your browser to see your app.
 
+
 When you are ready to deploy your app to production, create a minified bundle using `npm run build`.
 
 ![npm start](./img/getting-started-react.svg)
+
+
 
 ## Get Started Immediately
 
