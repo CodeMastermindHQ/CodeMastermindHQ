@@ -9,6 +9,7 @@ sidebar_position: 2
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import CodeBlock from '@theme/CodeBlock';
 import card from '@site/src/css/markdown.module.css'
+import style from './style.css'
 ```
 
 Create React App is an officially supported way to create single-page React applications. It provides a modern build setup with zero configuration required.
@@ -32,7 +33,27 @@ When you are ready to deploy your app to production, create a minified bundle us
 
 ![npm start](./img/getting-started-react.svg)
 
-
+<BrowserWindow style={{backgroundColor: "#282c34"}}>
+    <body >
+    <div style={{textAlign: 'center'}}>
+      <header style={{minHeight: '80vh', display:' flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', fontSize: 'calc(10px + 2vmin)', color: '#fff'}}>
+        <img src="https://raw.githubusercontent.com/CodeMastermindHQ/CodeMastermindHQ/7072abb527b8d225d5646fe4a2d73b7dc50ef7ae/static/dev-img/react.svg" className="App-logo" alt="logo" />
+        <br/>
+        <p>
+          Edit <code style={{color:'#000'}}>src/App.js</code> and save to reload.
+        </p> 
+        <a
+          style={{color: '#61dafb'}}
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+    </body>
+</BrowserWindow>
 
 ## Get Started Immediately
 
@@ -149,6 +170,28 @@ Inside the project folder, you can run the following built-in commands:
 ### `npm start` or `yarn start`
 
 Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) in your browser to view it.
+
+<BrowserWindow style={{backgroundColor: "#282c34"}}>
+    <body >
+    <div style={{textAlign: 'center'}}>
+      <header style={{minHeight: '80vh', display:' flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', fontSize: 'calc(10px + 2vmin)', color: '#fff'}}>
+        <img src="https://raw.githubusercontent.com/CodeMastermindHQ/CodeMastermindHQ/7072abb527b8d225d5646fe4a2d73b7dc50ef7ae/static/dev-img/react.svg" className="App-logo" alt="logo" />
+        <br/>
+        <p>
+          Edit <code style={{color:'#000'}}>src/App.js</code> and save to reload.
+        </p> 
+        <a
+          style={{color: '#61dafb'}}
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+    </body>
+</BrowserWindow>
 
 The page will automatically reload if you make changes to the code. Any build errors or lint warnings will be displayed in the console.
 
