@@ -1,7 +1,7 @@
 ---
 id: supported-browsers-features
 title: Supported Browsers and Features
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 ## Supported Browsers

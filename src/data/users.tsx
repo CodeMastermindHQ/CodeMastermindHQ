@@ -201,14 +201,7 @@ const Users: User[] = [
     source: 'https://github.com/Ajay-Dhangar/ai-mock-interview',
     tags: ['opensource', 'clone', 'templates'],
   },
-  {
-    title: 'Quiz App',
-    description: 'Explore and test your knowledge with the Quiz app. Engaging quizzes to challenge your mind and expand your horizons. Try it now!',
-    preview: require('./showcase/quiz-app.jpg'),
-    website: 'https://quiz-app-ajay-dhangar.vercel.app/',
-    source: 'https://github.com/Ajay-Dhangar/Quiz-app',
-    tags: ['opensource', 'clone', 'templates'],
-  },
+
   {
     title: 'TailwindBlog',
     description: 'The Starter app is a feature-rich Next.js and Tailwind CSS blogging starter template.',
@@ -217,14 +210,7 @@ const Users: User[] = [
     source: 'https://github.com/Ajay-Dhangar/starter',
     tags: ['opensource', 'clone', 'templates'],
   },
-  {
-    title: 'Quiz App',
-    description: 'Explore and test your knowledge with the Quiz app. Engaging quizzes to challenge your mind and expand your horizons. Try it now!',
-    preview: require('./showcase/quiz-app.jpg'),
-    website: 'https://quiz-app-ajay-dhangar.vercel.app/',
-    source: 'https://github.com/Ajay-Dhangar/Quiz-app',
-    tags: ['opensource', 'clone', 'templates'],
-  },
+
   {
     title: 'GERIGHT',
     description: 'Experience culinary excellence at Gericht Restaurant: Modern UI, showcasing The Key To Fine Dining.',

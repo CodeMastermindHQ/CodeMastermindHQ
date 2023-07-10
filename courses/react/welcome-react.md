@@ -2,6 +2,7 @@
 id: welcome-react
 title: Welcome to React
 sidebar_position: 1
+sidebar_label: Welcome to React
 ---
 
 React is a JavaScript library for building user interfaces. It allows you to create reusable UI components and efficiently update and render them as the data changes. With its virtual DOM and declarative syntax, React makes it easier to build interactive and performant web applications.
