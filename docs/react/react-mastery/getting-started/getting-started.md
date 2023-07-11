@@ -9,7 +9,7 @@ sidebar_position: 1
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import CodeBlock from '@theme/CodeBlock';
 import card from '@site/src/css/markdown.module.css'
-import style from '../style.css'
+import '../style.css'
 ```
 
 Create React App is an officially supported way to create single-page React applications. It provides a modern build setup with zero configuration required.
