@@ -36,14 +36,16 @@ const config = {
         docs: {
           path: 'docs',
           //routeBasePath: '/',
-          sidebarPath: 'sidebars.js',
+          sidebarPath: require.resolve("./sidebars.js"),
+          // sidebarPath: 'sidebars.js',
           numberPrefixParser: false,
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/CodeMastermindHQ/CodeMastermindHQ/edit/main/',
           remarkPlugins: [npm2yarn, { sync: true }],
-        },
+        },       
+
         // gtag: !isDeployPreview
         // ? {
         //       trackingID: 'G-M8RTQC8274',
@@ -128,6 +130,14 @@ const config = {
           //   label: '📚 Tutorials',
           //   position: 'left',
           // },
+
+          {
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "📚 Tutorial",
+          },   
+          
           {
             to: '/courses',
             label: '🔍 Courses',
