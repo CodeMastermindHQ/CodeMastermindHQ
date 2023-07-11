@@ -2,14 +2,14 @@
 id: getting-started
 title: Getting Started
 sidebar_label: Getting Started
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 ```mdx-code-block
 import BrowserWindow from '@site/src/components/BrowserWindow';
 import CodeBlock from '@theme/CodeBlock';
 import card from '@site/src/css/markdown.module.css'
-import style from './style.css'
+import style from '../style.css'
 ```
 
 Create React App is an officially supported way to create single-page React applications. It provides a modern build setup with zero configuration required.
@@ -31,7 +31,7 @@ Once the above commands have executed successfully, open [http://localhost:3000/
 
 When you are ready to deploy your app to production, create a minified bundle using `npm run build`.
 
-![npm start](./img/getting-started-react.svg)
+![npm start](../img/getting-started-react.svg)
 
 <BrowserWindow style={{backgroundColor: "#282c34"}}>
     <body >
@@ -111,7 +111,7 @@ To start a new TypeScript app, append `--template typescript` to the creation co
 npx create-react-app my-app --template typescript
 ```
 
-If you already have a project and want to add TypeScript, check out our [Adding TypeScript](./adding-typescript) documentation.
+If you already have a project and want to add TypeScript, check out our [Adding TypeScript](../adding-typescript) documentation.
 
 ## Selecting a Package Manager
 
@@ -197,7 +197,7 @@ The page will automatically reload if you make changes to the code. Any build er
 
 ### `npm test` or `yarn test`
 
-Runs the test watcher in interactive mode. By default, it runs tests related to files changed since the last commit. Refer to our [Running Tests](./running-tests.md) documentation for more details.
+Runs the test watcher in interactive mode. By default, it runs tests related to files changed since the last commit. Refer to our [Running Tests](../running-tests) documentation for more details.
 
 ### `npm run build` or `yarn build`
 

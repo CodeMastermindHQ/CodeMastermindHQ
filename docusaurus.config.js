@@ -139,7 +139,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'vs-code/snippets/all-vscode-snippets',
+            docId: 'welcome',
             label: '📚 Tutorials',
             position: 'left',
           },
