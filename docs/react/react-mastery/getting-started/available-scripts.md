@@ -12,13 +12,13 @@ This script runs your app in development mode. It starts a local server and open
 
 ## `npm test`
 
-This script launches the test runner in interactive watch mode. It helps you run tests for your app and provides feedback. You can learn more about running tests in the [running tests](running-tests) section.
+This script launches the test runner in interactive watch mode. It helps you run tests for your app and provides feedback. You can learn more about running tests in the [running tests](../testing/running-tests.md) section.
 
 ## `npm run build`
 
-This script builds your app for production. It creates an optimized version of your app in the `build` folder. The production build is minified and the filenames include unique hashes to ensure browser caching works correctly. React is also bundled in production mode for better performance. If needed, you can enable class and function names for profiling purposes. You can find more information about the production build process in the [production build](production-build) section.
+This script builds your app for production. It creates an optimized version of your app in the `build` folder. The production build is minified and the filenames include unique hashes to ensure browser caching works correctly. React is also bundled in production mode for better performance. If needed, you can enable class and function names for profiling purposes. You can find more information about the production build process in the [production build](../building-your-app/production-build.md) section.
 
-Your app is now ready to be deployed! Check out the [deployment](./deployment) section to learn how to deploy your application to popular hosting providers.
+Your app is now ready to be deployed! Check out the [deployment](../deployment/deployment.md) section to learn how to deploy your application to popular hosting providers.
 
 ## `npm run eject`
 

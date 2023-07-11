@@ -12,7 +12,7 @@ In Create React App, there are two important packages:
 When you run the command `npx create-react-app my-app`, it automatically installs the latest version of Create React App for you.
 
 :::caution Warn
-If you have previously installed `create-react-app` globally using `npm install -g create-react-app`, please refer to the [Getting Started](../getting-started) guide to learn about the current installation steps.
+If you have previously installed `create-react-app` globally using `npm install -g create-react-app`, please refer to the [Getting Started](../getting-started/getting-started.md) guide to learn about the current installation steps.
 :::
 
 Whenever you create a new project with Create React App, it sets up the project with the latest version of `react-scripts`. This ensures that you benefit from all the new features and improvements available in the latest version.

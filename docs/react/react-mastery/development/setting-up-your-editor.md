@@ -91,7 +91,7 @@ To enable debugging in VS Code, add the following block to your `launch.json` fi
 ```
 
 :::note
-- If you've adjusted the [HOST or PORT environment variables](advanced-configuration), the URL may be different.
+- If you've adjusted the [HOST or PORT environment variables](../advance-use/advanced-configuration.md), the URL may be different.
 :::
 Start your app by running `npm start`, and then you can start debugging in VS Code by pressing `F5` or clicking the green debug icon. This allows you to write code, set breakpoints, make changes, and debug your code without leaving the editor.
 
@@ -104,7 +104,7 @@ To use the debugging feature in WebStorm, you'll need [WebStorm](https://www.jet
 In WebStorm, go to the `Run` menu and select `Edit Configurations...`. Click the `+` button, choose `JavaScript Debug`, and paste `http://localhost:3000` into the URL field. Save the configuration.
 
 :::note
-- If you've adjusted the [HOST or PORT environment variables](advanced-configuration), the URL may be different.
+- If you've adjusted the [HOST or PORT environment variables](../advance-use//advanced-configuration.md), the URL may be different.
 :::
 
 Start your app by running `npm start`, then press `^D` on macOS or `F9` on Windows and Linux, or click the green debug icon in WebStorm to start debugging.
