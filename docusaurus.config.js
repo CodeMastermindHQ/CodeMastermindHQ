@@ -114,6 +114,21 @@ const config = {
           autoCollapseCategories: true,
         },
       },
+      metadata: [
+        {
+          name: "keywords",
+          content:
+            "Java, cooking, Express.js, HTML, CSS, MERN stack, MongoDB, Code community, Code mentorship, Code bootcamp, Learning to code, Coding tutorials, Web development tutorials, blog, code, coding, Software development, programming, web development, JavaScript, React,Node.js, Full stack development,DSACodeMastermindHQ, Code Mastermind, GitHub repository,Open-source project, Software development, Programming, CodeMastermindHQ project, Code Mastermind game, Online coding game, Programming puzzle game, JavaScript project, Web development project, GitHub, Vercel, HTML, CSS, JavaScript, Frontend development, Web application, Game development, Logic puzzle, Problem-solving, Coding challenge, Programming practice, Learning to code, Coding education, Web-based game, Browser game", 
+        },
+      ],
+      announcementBar: {
+        id: 'announcementBar',
+        content:`⭐️ If you like CodeMasterMindHQ, give it a star on <a target="_blank" href="https://github.com/CodeMastermindHQ/CodeMastermindHQ">GitHub</a> and join us on <a target="_blank" href="https://www.linkedin.com/groups/14232119/">LinkedIn</a> ⭐️`,
+       
+          backgroundColor: '#ff1f21',
+        textColor: '#f1f1f1',
+        isCloseable: true,
+      },
       navbar: {
         hideOnScroll: true,
         title: 'CodeMastermindHQ',
@@ -122,12 +137,12 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'vs-code/snippets/all-vscode-snippets',
-          //   label: '📚 Tutorials',
-          //   position: 'left',
-          // },
+          {
+            type: 'doc',
+            docId: 'vs-code/snippets/all-vscode-snippets',
+            label: '📚 Tutorials',
+            position: 'left',
+          },
           {
             to: '/courses',
             label: '🔍 Courses',
