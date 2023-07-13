@@ -2,6 +2,7 @@
 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/af9f9088-4e9f-433e-b070-2edd6c7e8218/deploy-status)](https://app.netlify.com/sites/codemastermindhq/deploys)
+[![CodeQL](https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql)
 
 
 ## Software Development Life Cycle (SDLC) model of CodeMastermindHQ:
