@@ -4,7 +4,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/af9f9088-4e9f-433e-b070-2edd6c7e8218/deploy-status)](https://app.netlify.com/sites/codemastermindhq/deploys)
 [![CodeQL](https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql)
 [![stars - CodeMastermindHQ](https://img.shields.io/github/stars/CodeMastermindHQ/CodeMastermindHQ?style=social)](https://github.com/CodeMastermindHQ/CodeMastermindHQ/stargazers)
-[![forks - CodeMastermindHQ](https://img.shields.io/github/forks/CodeMastermindHQ/CodeMastermindHQ?style=social)](https://github.com/CodeMastermindHQ/CodeMastermindHQ)
+[![forks - CodeMastermindHQ](https://img.shields.io/github/forks/CodeMastermindHQ/CodeMastermindHQ?style=social)](https://github.com/CodeMastermindHQ/CodeMastermindHQ/forks)
+<a href="https://twitter.com/codemastermind2"><img src="https://img.shields.io/twitter/follow/codemastermind2.svg?style=social"  alt="Twitter Follow" /></a>
 <a href="https://twitter.com/AJAYDHA27250016"><img src="https://img.shields.io/twitter/follow/AJAYDHA27250016.svg?style=social"  alt="Twitter Follow" /></a>
 <a href="https://discord.gg/BFkPKMsfuZ"><img src="https://img.shields.io/discord/102860784329052160.svg" alt="Discord Chat" /></a>
 <a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ/pulls"><img src="https://img.shields.io/github/issues-pr/CodeMastermindHQ/CodeMastermindHQ" alt="Pull Requests Badge"/></a>
