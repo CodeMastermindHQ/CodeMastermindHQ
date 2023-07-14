@@ -1,8 +1,15 @@
 # Website
 
-
+[![CodeMastermindHQ-CodeMastermindHQ](https://img.shields.io/static/v1?label=CodeMastermindHQ&message=CodeMastermindHQ&color=blue&logo=github)](https://github.com/CodeMastermindHQ/CodeMastermindHQ "Go to GitHub repo")
 [![Netlify Status](https://api.netlify.com/api/v1/badges/af9f9088-4e9f-433e-b070-2edd6c7e8218/deploy-status)](https://app.netlify.com/sites/codemastermindhq/deploys)
 [![CodeQL](https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql)
+[![stars - CodeMastermindHQ](https://img.shields.io/github/stars/CodeMastermindHQ/CodeMastermindHQ?style=social)](https://github.com/CodeMastermindHQ/CodeMastermindHQ)
+[![forks - CodeMastermindHQ](https://img.shields.io/github/forks/CodeMastermindHQ/CodeMastermindHQ?style=social)](https://github.com/CodeMastermindHQ/CodeMastermindHQ)
+<a href="https://twitter.com/AJAYDHA27250016"><img src="https://img.shields.io/twitter/follow/AJAYDHA27250016.svg?style=social"  alt="Twitter Follow" /></a>
+<a href="https://discord.gg/BFkPKMsfuZ"><img src="https://img.shields.io/discord/102860784329052160.svg" alt="Discord Chat" /></a>
+<a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ/pulls"><img src="https://img.shields.io/github/issues-pr/CodeMastermindHQ/CodeMastermindHQ" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ/issues"><img src="https://img.shields.io/github/issues/CodeMastermindHQ/CodeMastermindHQ" alt="Issues Badge"/></a>
+<a href="https://github.com/CodeMastermindHQ/CodeMastermindHQ/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/CodeMastermindHQ/CodeMastermindHQ?color=2b9348"></a>
 
 
 ## Software Development Life Cycle (SDLC) model of CodeMastermindHQ:
