@@ -2,7 +2,6 @@
 id: README
 title: Multics
 date: 2022-05-22 20:12:20
-sidebar_position: 2
 sidebar_label: OS
 sidebar_class_name: green
 slug: /
