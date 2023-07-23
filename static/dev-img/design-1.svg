@@ -1,0 +1,27 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  width="64"
+  height="64"
+  fill="#007bff"
+>
+  <!-- Code Editor Background -->
+  <rect x="100" y="100" width="300" height="200" fill="#f0f0f0" />
+
+  <!-- Code Editor Body -->
+  <rect x="160" y="160" width="150" height="150" fill="#ffffff" />
+
+  <!-- Code Lines -->
+  <line x1="20" y1="22" x2="44" y2="22" stroke="#007bff" stroke-width="2" />
+  <line x1="20" y1="27" x2="44" y2="27" stroke="#007bff" stroke-width="2" />
+  <line x1="20" y1="32" x2="44" y2="32" stroke="#007bff" stroke-width="2" />
+  <line x1="20" y1="37" x2="44" y2="37" stroke="#007bff" stroke-width="2" />
+
+  <!-- Code Cursor -->
+  <line x1="22" y1="23" x2="22" y2="36" stroke="#007bff" stroke-width="2" />
+
+  <!-- Code Editor Text -->
+  <text x="15" y="50" font-size="4" font-family="Arial" fill="#007bff">
+    CodeMasterMindHQ
+  </text>
+</svg>
