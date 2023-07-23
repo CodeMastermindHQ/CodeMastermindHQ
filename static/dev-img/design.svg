@@ -1,0 +1,81 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 800 600"
+  width="800"
+  height="600"
+  style="background-color: #f0f0f0;"
+>
+  <!-- Header Section -->
+  <rect x="0" y="0" width="800" height="80" fill="#007bff" />
+
+  <!-- Logo -->
+  <text x="30" y="45" fill="white" font-size="24" font-weight="bold">
+    CodeMasterMindHQ
+  </text>
+
+  <!-- User Account Settings and Notifications -->
+  <circle cx="770" cy="40" r="15" fill="white" />
+  <circle cx="735" cy="40" r="15" fill="white" />
+
+  <!-- Sidebar Navigation -->
+  <rect x="0" y="80" width="200" height="520" fill="#333333" />
+  <!-- Navigation Items -->
+  <text x="40" y="120" fill="white" font-size="20">
+    📘 Learning Modules
+  </text>
+  <text x="40" y="160" fill="white" font-size="20">
+    🧩 Coding Challenges
+  </text>
+  <text x="40" y="200" fill="white" font-size="20">
+    🏗️ Projects
+  </text>
+  <text x="40" y="240" fill="white" font-size="20">
+    ✉️ Code Reviews
+  </text>
+  <text x="40" y="280" fill="white" font-size="20">
+    ⚙️ Settings
+  </text>
+
+  <!-- Main Dashboard Content -->
+  <rect x="200" y="80" width="600" height="520" fill="#f0f0f0" />
+
+  <!-- Coding Challenges Widget -->
+  <rect x="220" y="100" width="280" height="150" fill="#e3e3e3" />
+  <text x="230" y="130" fill="#333333" font-size="18">
+    Latest Coding Challenges
+  </text>
+
+  <!-- Project Collaboration Widget -->
+  <rect x="520" y="100" width="260" height="150" fill="#e3e3e3" />
+  <text x="530" y="130" fill="#333333" font-size="18">
+    Project Collaboration
+  </text>
+
+  <!-- Code Reviews and Feedback -->
+  <rect x="220" y="270" width="560" height="230" fill="#e3e3e3" />
+  <text x="230" y="300" fill="#333333" font-size="18">
+    Code Reviews and Feedback
+  </text>
+
+  <!-- Technology Trends and Updates -->
+  <rect x="220" y="510" width="560" height="80" fill="#e3e3e3" />
+  <text x="230" y="540" fill="#333333" font-size="18">
+    Technology Trends and Updates
+  </text>
+
+  <!-- Footer Section -->
+  <rect x="0" y="580" width="800" height="20" fill="#333333" />
+  <!-- Footer Links -->
+  <text x="40" y="597" fill="white" font-size="14">
+    About Us
+  </text>
+  <text x="120" y="597" fill="white" font-size="14">
+    Contact
+  </text>
+  <text x="190" y="597" fill="white" font-size="14">
+    Privacy Policy
+  </text>
+  <text x="305" y="597" fill="white" font-size="14">
+    Terms of Service
+  </text>
+</svg>
