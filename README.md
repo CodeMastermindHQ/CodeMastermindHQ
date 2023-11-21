@@ -1,7 +1,7 @@
 # Website
 
 [![CodeMastermindHQ-CodeMastermindHQ](https://img.shields.io/static/v1?label=CodeMastermindHQ&message=CodeMastermindHQ&color=blue&logo=github)](https://github.com/CodeMastermindHQ/CodeMastermindHQ "Go to GitHub repo")
-[![Netlify Status](https://api.netlify.com/api/v1/badges/af9f9088-4e9f-433e-b070-2edd6c7e8218/deploy-status)](https://app.netlify.com/sites/codemastermindhq/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/af9f9088-4e9f-433e-b070-2edd6c7e8218/deploy-status)](https://app.netlify.com/sites/cmhq/deploys)
 [![CodeQL](https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/CodeMastermindHQ/CodeMastermindHQ/actions/workflows/github-code-scanning/codeql)
 [![stars - CodeMastermindHQ](https://img.shields.io/github/stars/CodeMastermindHQ/CodeMastermindHQ?style=social)](https://github.com/CodeMastermindHQ/CodeMastermindHQ/stargazers)
 [![forks - CodeMastermindHQ](https://img.shields.io/github/forks/CodeMastermindHQ/CodeMastermindHQ?style=social)](https://github.com/CodeMastermindHQ/CodeMastermindHQ/forks)
